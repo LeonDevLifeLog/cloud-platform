@@ -16,7 +16,7 @@ check()
 
 install_golang()
 {
-	goPkg=go1.14.2.linux-arm64
+	goPkg=go1.18.3.linux-arm64
 
 	wget https://dl.google.com/go/$goPkg.tar.gz > /dev/null
 	check $?
